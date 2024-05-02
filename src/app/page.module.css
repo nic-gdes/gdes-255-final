@@ -3,8 +3,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 20px;
+  margin: 15;
   min-height: 100vh;
+}
+.boxLeft {
+  color: purple;
+}
+.boxCenter {
+  color: blue;
+}
+.boxRight {
+  color: red;
 }
 
 .description {

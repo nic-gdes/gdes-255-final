@@ -7,7 +7,8 @@ const Header = () => {
       {/*The header needs to be white and the links need to be in a row.*/}
       <div className={styles.logo}>
         {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
-        <Image />
+        <Image 
+        src="./NICLogo.png"/>
       </div>
       <nav>
         <ul>
