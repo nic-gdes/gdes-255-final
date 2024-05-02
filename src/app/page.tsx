@@ -1,4 +1,4 @@
-//import Header from "@/components/global/header";
+import Header from "@/components/global/header";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -10,13 +10,10 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.row}>
             <div className={styles.boxLeft}>
-              {/*This box needs to be purple*/}
             </div>
             <div className={styles.boxCenter}>
-              {/*This box needs to be blue*/}
             </div>
             <div className={styles.boxRight}>
-              {/*This box needs to be red*/}
             </div>
           </div>
         </div>

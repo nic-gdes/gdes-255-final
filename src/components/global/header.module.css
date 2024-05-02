@@ -1,0 +1,9 @@
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-family: Caviar Dreams;
+    font-style: normal;
+    font-weight: 500;
+    list-style-type: none;
+}
