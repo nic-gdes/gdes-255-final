@@ -1,22 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project Setup
+
+This project is bootstrapped using [Next.js](https://nextjs.org/) and [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+### Running the Development Server
 
-```bash
+To start the development server, execute the following command:
+
+```
+npm install
+```
+
+```
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After starting the server, open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Development Instructions
 
-- Read the comments within the home page.tsx and do as they say.
-- Update the meta "<title>" tag to read "NIC GDES 255 Final" instead of "Create Next App".
-- Update the meta description with the goal you are going to strive for to be ready for next years html/css/js class.
-- The about page needs to have quick description of the things you learned this year. In the same format as the completed homepage.
+To make changes to the application, begin by editing the `app/page.tsx` file. Changes you make will automatically update the app in your browser.
 
-Once done with the tasks above create a merge request with the gdes-255-final repo.
+#### Tasks
 
-For extra credit... Deploy to Vercel. 
+1. **Install the package "sharp"** using npm make sure it saves to package.json
+
+2. **Edit the Home Page (`page.tsx`)**:
+    - Follow the instructions in the comments within the `page.tsx`.
+    - Update the `<title>` tag to "NIC GDES 255 Final".
+    - Revise the meta description to reflect your goals for next year's HTML/CSS/JS class.
+
+3. **Update the About Page**:
+    - Add a brief description of the skills and knowledge you've acquired this year, formatted similarly to the homepage.
+
+### Creating a Merge Request
+
+After completing the above modifications:
+- Create a merge request targeting the `gdes-255-final` repository with your changes.
+
+### Extra Credit Opportunity
+
+For extra credit, deploy your application to [Vercel](https://vercel.com/).
