@@ -3,8 +3,55 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
   padding: 6rem;
   min-height: 100vh;
+  margin-top: 100px;
+}
+
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxLeft, .boxCenter, .boxRight {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.boxLeft {
+  background-color: purple;
+}
+
+.boxCenter {
+  background-color: blue;
+}
+
+.boxRight {
+  background-color: red;
+}
+
+.header nav ul {
+  color: black;
+  list-style: none;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .description {

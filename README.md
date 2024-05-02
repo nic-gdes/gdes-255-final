@@ -24,7 +24,7 @@ To make changes to the application, begin by editing the `app/page.tsx` file. Ch
 
 #### Tasks
 
-1. **Install the package "sharp"** using npm make sure it saves to package.json
+<!-- 1. **Install the package "sharp"** using npm make sure it saves to package.json -->
 
 2. **Edit the Home Page (`page.tsx`)**:
     - Follow the instructions in the comments within the `page.tsx`.
