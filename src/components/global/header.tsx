@@ -1,5 +1,5 @@
 import styles from "@/app/page.module.css";
-
+import Image from "next/image";
 const Header = () => {
   return (
     <header className={styles.header}>
@@ -8,7 +8,7 @@ const Header = () => {
       <div className={styles.logo}>
         {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
         <Image 
-        src="./NICLogo.png"/>
+        src="/NICLogo.png"/>
       </div>
       <nav>
         <ul>
