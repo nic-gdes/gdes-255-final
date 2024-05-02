@@ -1,10 +1,15 @@
 //import Header from "@/components/global/header";
 import styles from "./page.module.css";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <div>
+        <Head>
+          <title>NIC GDES 255 Final</title>
+        </Head>
+      </div>
       <main className={styles.main}>
         {/*These boxes needs to be center of page each one 300x250px size with a margin of 15px and 20px padding.*/}
         <div className={styles.container}>
