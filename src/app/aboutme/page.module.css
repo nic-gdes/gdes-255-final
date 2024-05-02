@@ -1,20 +1,7 @@
 .header {
   display: flex;
   flex-direction: row;
-}
-.footer {
-  display: flex;
-  justify-content: center;
-}
-.nav ul {
-  display: flex;
-  flex-direction: row;
   list-style: none;
-  padding-left: 50px;
-  padding-top: 50px;
-}
-.navLi {
-  padding-left: 50px;
 }
 .main {
   display: flex;
@@ -24,14 +11,10 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+
 .description {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   display: inherit;
   justify-content: inherit;
@@ -42,20 +25,22 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
-
+.description h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.description h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
 .description a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
 }
-.description h1 {
-  text-align: center;
-  padding-bottom: 20px;
-}
+
 .description p {
-  display: flex;
-  flex-direction: column;
   position: relative;
   margin: 0;
   padding: 1rem;
