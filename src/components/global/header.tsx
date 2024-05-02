@@ -8,7 +8,10 @@ const Header = () => {
       <div className={styles.logo}>
         {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
         <Image 
-        src="/NICLogo.png"/>
+        src="/NICLogo.png"
+        alt="NIC Logo"
+        height="100"
+        width="400"/>
       </div>
       <nav>
         <ul>
