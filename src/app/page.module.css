@@ -228,3 +228,48 @@
     transform: rotate(0deg);
   }
 }
+.container {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally */
+}
+
+.row {
+  display: flex;
+}
+
+.boxLeft, .boxCenter, .boxRight {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.boxLeft {
+  background-color: purple;
+}
+
+.boxCenter {
+  background-color: blue;
+}
+
+.boxRight {
+  background-color: red;
+}
+.header {
+  background-color: white; 
+  position: relative; 
+  z-index: 1000; 
+}
+
+.sticky {
+  position: sticky; 
+  top: 0; 
+}
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.navbar li{
+  margin-right: 1rem;
+}
