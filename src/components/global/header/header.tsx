@@ -6,21 +6,19 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className={styles.header}>
-      {/*This navigation needs to be stuck to the top of the screen when you scroll.*/}
-      {/*The header needs to be white and the links need to be in a row.*/}
       <div className={styles.logo}>
-        {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
-        <Image
-          src={logo}
-          width={200}
-          height={100}
-          alt="logo"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            width={200}
+            height={100}
+            alt="logo"
+          />
+        </Link>
       </div>
       <nav>
         <ul className={styles.links}>
           <li>
-            {/*Link to the home page*/}
             <Link href="/">
               Home
             </Link>
