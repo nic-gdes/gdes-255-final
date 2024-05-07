@@ -1,4 +1,5 @@
 import styles from "@/app/page.module.css";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -7,17 +8,22 @@ const Header = () => {
       {/*The header needs to be white and the links need to be in a row.*/}
       <div className={styles.logo}>
         {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
-        <Image />
+        <Image
+          src="/niclogo.svg"
+          width={182.59}
+          height={101.9}
+          alt="niclogo"
+        />
       </div>
       <nav>
-        <ul>
-          <li>
+        <ul className={styles.nav}>
+          <li className={styles.home}>
             {/*Link to the home page*/}
-            Home
+            <a href="/">Home</a>
           </li>
-          <li>
+          <li className={styles.about}>
             {/*Link to the about me page that you have to create.*/}
-            About
+            <a href="/pages">About</a>
           </li>
         </ul>
       </nav>

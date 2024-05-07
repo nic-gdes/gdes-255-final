@@ -29,7 +29,7 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
+  background-color: white;
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
@@ -105,8 +105,85 @@
   transform: translateZ(0);
 }
 
+.header {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 16.6666vw;
+  justify-content: center;
+}
+
+.nav li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.home {
+  color: black;
+}
+
+.about {
+  color: black;
+}
+
 .logo {
   position: relative;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-wrap: wrap;
+}
+
+.boxLeft {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: purple;
+}
+
+.boxCenter {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: blue;
+}
+
+.boxRight {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: red;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  flex-wrap: wrap;
+}
+.boxTop {
+  margin: 10% 0;
+  color: #98002E;
+}
+
+.boxBottom {
+
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -215,9 +292,9 @@
     filter: invert(1);
   }
 
-  .logo {
+  /* .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  } */
 }
 
 @keyframes rotate {
