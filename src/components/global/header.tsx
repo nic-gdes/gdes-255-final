@@ -1,23 +1,21 @@
 import styles from "@/app/page.module.css";
+import cardinal from '../../assets/cardinal.png';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className={styles.header}>
-      {/*This navigation needs to be stuck to the top of the screen when you scroll.*/}
-      {/*The header needs to be white and the links need to be in a row.*/}
+    <header className={`${styles.header} ${styles.sticky}`}>
       <div className={styles.logo}>
-        {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
-        <Image />
+            <Image src={cardinal.src} alt="NIC Logo" width={150} height={50} />
       </div>
       <nav>
-        <ul>
+        <ul className={styles.navLinks}>
           <li>
-            {/*Link to the home page*/}
-            Home
+              <a>Home</a>
           </li>
           <li>
-            {/*Link to the about me page that you have to create.*/}
-            About
+              <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>
