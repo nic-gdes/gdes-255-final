@@ -228,3 +228,54 @@
     transform: rotate(0deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: center; 
+}
+
+.row {
+  display: flex;
+}
+
+.boxLeft, .boxCenter, .boxRight {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.boxLeft {
+  background-color: purple;
+}
+
+.boxCenter {
+  background-color: blue;
+}
+
+.boxRight {
+  background-color: red;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  background-color: white;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.navbar a {
+  color: black; 
+}
