@@ -1,23 +1,28 @@
 import styles from "@/app/page.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import NIC from "../../assets/logoStacked.svg";
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      {/*This navigation needs to be stuck to the top of the screen when you scroll.*/}
-      {/*The header needs to be white and the links need to be in a row.*/}
       <div className={styles.logo}>
-        {/* Image needs to be the NIC logo and needs to be linked to the home page of this app. */}
-        <Image />
+        <Link href="https://www.nic.edu/" target="_blank">
+          <Image
+            src={NIC.src}
+            width={120}
+            height={50}
+            alt="Logo of the North Idaho College"
+          />
+        </Link>
       </div>
-      <nav>
+      <nav className={styles.nav}>
         <ul>
           <li>
-            {/*Link to the home page*/}
-            Home
+            <Link href="/">Home</Link>
           </li>
           <li>
-            {/*Link to the about me page that you have to create.*/}
-            About
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>
