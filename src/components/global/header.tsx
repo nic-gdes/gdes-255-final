@@ -2,7 +2,6 @@ import styles from "@/app/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import NIC from "../../assets/logoStacked.svg";
-import AboutMe from "@/app/about/page";
 
 const Header = () => {
   return (
