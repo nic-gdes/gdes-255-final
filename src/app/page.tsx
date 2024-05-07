@@ -1,6 +1,7 @@
 import Header from "@/components/global/header";
 import styles from "./page.module.css";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
