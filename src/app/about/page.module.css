@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20rem;
+    min-height: 100vh;
+  }
+  
+  .description {
+    max-width: 50%; 
+    padding-right: 20px; 
+  }
+  
+  .h1 {
+    padding: 20px;
+    text-align: left;
+    font-family: Orbitron;
+    font-size: 75px;
+    max-width: 100%;
+  }
+  
+  .p {
+    text-align: left;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  } 

@@ -1,0 +1,27 @@
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Caviar Dreams;
+    font-style: normal;
+    font-weight: 500;
+    list-style-type: none;
+    color: black;
+}
+
+.links li {
+    text-decoration: none;
+    padding: 16px 16px 35px 16px;
+    align-items: center;
+}
+
+.header {
+    background-color: white;
+    text-decoration-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
