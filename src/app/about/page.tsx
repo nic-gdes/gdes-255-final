@@ -1,5 +1,5 @@
 import Header from "@/components/global/header";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 export default function Home() {
   return (
@@ -8,7 +8,9 @@ export default function Home() {
       <main className={styles.main}>
         <title>NIC GDES 255 FINAL</title>
         {/*These boxes needs to be center of page each one 300x250px size with a margin of 15px and 20px padding.*/}
-        <div className={styles.container}>
+        <div className={styles.descriptions}>
+          <h1>What I have learned this year</h1>
+          <p> I have had a better understanding of HTML and CSS and I have learned alot more about JavaScript. I am hoping next year I get a better understanding</p>
           <div className={styles.row}>
             <div className={styles.boxLeft}>
               {/*This box needs to be purple*/}
