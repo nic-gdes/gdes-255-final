@@ -1,11 +1,13 @@
 import Header from "@/components/global/header";
 import styles from "./page.module.css";
 import Head from "next/head";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <>
       <div>
+        <Header />
         <Head>
           <title>NIC GDES 255 Final</title>
         </Head>
@@ -26,11 +28,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer>
-        {/*This footer needs to have the copyright symbol and needs to be a global component similar to the header. */}
-        {/*The main body needs to grow so the footer is at bottom of screen.*/}
-        Copyright 2024 GDES 255 Final
-      </footer>
+      <Footer />
     </>
   );
 }
