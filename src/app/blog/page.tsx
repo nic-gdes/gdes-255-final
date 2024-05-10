@@ -12,13 +12,13 @@ export default function Home() {
           <div className={styles.column}>
             <div className={styles.blogTop}><h1>A Tale of Two Todo Apps: Comparing Vanilla JavaScript vs. React/Next.js Development.</h1></div>
             <div className={styles.blogBottom}><p>Introduction:<br />
-In the ever-evolving landscape of web development, the choice of tools and frameworks can significantly impact the development process and the resulting product. Today, we delve into the experiences of developing two Todo apps, one using vanilla JavaScript and the other utilizing React/Next.js. We'll explore the nuances of each approach, comparing structure, code organization, reusability, learning curve, and UI/UX aspects.
+In the ever-evolving landscape of web development, the choice of tools and frameworks can significantly impact the development process and the resulting product. Today, we delve into the experiences of developing two Todo apps, one using vanilla JavaScript and the other utilizing React/Next.js. We&apos;ll explore the nuances of each approach, comparing structure, code organization, reusability, learning curve, and UI/UX aspects.
 
 <br /><br />Structure, Syntax, and Code Organization:<br />
 The vanilla JavaScript Todo app relied heavily on DOM manipulation, requiring meticulous attention to event handling and state management. In contrast, the React/Next.js app leveraged a component-based architecture, with JSX syntax offering a more intuitive way to define UI elements. The organization of code in the React/Next.js app felt more structured and modular, with components neatly encapsulating functionality.
 
 <br /><br />Reusability and Maintainability:<br />
-One of the standout advantages of the React/Next.js app was the reusability of components. Common UI elements like buttons and input fields were abstracted into reusable components, promoting DRY (Don't Repeat Yourself) principles and enhancing maintainability. In contrast, the vanilla JavaScript app lacked such modularity, leading to code duplication and increased complexity in managing updates and changes.
+One of the standout advantages of the React/Next.js app was the reusability of components. Common UI elements like buttons and input fields were abstracted into reusable components, promoting DRY (Don&apos;t Repeat Yourself) principles and enhancing maintainability. In contrast, the vanilla JavaScript app lacked such modularity, leading to code duplication and increased complexity in managing updates and changes.
 
 <br /><br />Learning Curve and Ease of Development:<br />
 While both approaches had their learning curves, the React/Next.js ecosystem provided more comprehensive documentation and a vibrant community, easing the onboarding process. The component-based nature of React also facilitated rapid development, allowing for faster iteration and prototyping compared to the procedural nature of vanilla JavaScript.
